@@ -1,2 +1,6 @@
-# Taxi-Tip-Prediction
-In this project, I consolidated my machine learning (ML) modeling skills by using a popular regression model: Decision Tree.  Here, I used the Snap ML library that can accelerate popular Machine Learning algorithms through system awareness, and hardware/software differentiation.
+# Taxi Tip Prediction using Scikit-Learn and Snap ML
+In this Data Science project, I will consolidate my machine learning (ML) modeling skills by using a popular regression model: Decision Tree. I will use a real dataset to train such a model. The dataset includes information about taxi tip and was collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP). I will use the trained model to predict the amount of tip paid. 
+
+Here, I will practice not only the Scikit-Learn Python interface, but also the Python API offered by the Snap Machine Learning (Snap ML) library. Snap ML is a high-performance IBM library for ML modeling. It provides highly-efficient CPU/GPU implementations of linear models and tree-based models. Snap ML not only accelerates ML algorithms through system awareness, but it also offers novel ML algorithms with best-in-class accuracy.
+
+The dataset used in this exercise session is publicly available here: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page (all rights reserved by Taxi & Limousine Commission(TLC), City of New York). The TLC Yellow Taxi Trip Records of June, 2019 are used in this notebook. The prediction of the tip amount can be modeled as a regression problem. To train the model we used part of the input dataset and the remaining data can also be used to assess the quality of the trained model.
